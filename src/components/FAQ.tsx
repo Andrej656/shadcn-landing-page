@@ -13,34 +13,39 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "Kada će biti gotovo?",
+    answer: "Ako imamo rezervni dio popravak bude tokom dana",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "Ako nemate trazeni dio??",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Robu narucujemo dva puta tjedno tako da servis bude odradjen u roku od 2-3 radna dana.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+      "Jeli otkupljujete mobitele?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Mobitele isključivo otkupljuje vlasnik koji je najčešće u popodnevnim satim u poslovnici(iza 15h)",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Jeste li Vi ovlašteni servis?",
+    answer: "Nismo, ali surađujemo s ovlaštenim servisima. Uređaj vam se može poslati u ovlašteni servisali vrijeme popravka se produžuje.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      "Popravljate li televizore, perilice rublja, kućanske aparate?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Ne, isključivo se bavimo servisiranjem mobilnih uređaja, računala, tableta, navigacija i igraćih konzola.",
     value: "item-5",
+  },
+  {
+    question: "Zašto duže čekamo na popravak?",
+    answer: "Na popravak se duže čeka ako je problem kvara konpleksniji, ako je nemoguće naručiti rezervni dio ili ako je softwerski zahtjevniji problem.",
+    value: "item-4",
   },
 ];
 
@@ -51,9 +56,9 @@ export const FAQ = () => {
       className="container py-24 sm:py-32"
     >
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{" "}
+        Često postavljana{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
+          Pitanja
         </span>
       </h2>
 
@@ -77,12 +82,12 @@ export const FAQ = () => {
       </Accordion>
 
       <h3 className="font-medium mt-4">
-        Still have questions?{" "}
+        Imate još pitanja?{" "}
         <a
           href="#"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
-          Contact us
+          Kontaktirajte nas
         </a>
       </h3>
     </section>

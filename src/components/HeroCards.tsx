@@ -82,8 +82,11 @@ export const HeroCards = () => {
         </CardHeader>
 
         <CardContent>
-          <Button className="w-full">Kontaktirajte nas</Button>
-        </CardContent>
+  <a href="tel:+38535627576" className="w-full">
+    <Button className="w-full">Kontaktirajte nas</Button>
+  </a>
+</CardContent>
+
 
         <hr className="w-4/5 m-auto mb-4" />
 

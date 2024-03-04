@@ -31,10 +31,12 @@ edukacija uvelike nam pomažu u tome.
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Kako do nas?</Button>
+  <a href="https://www.google.com/maps/place/Ul.+Nikole+Zrinskog+21,+35000,+Slavonski+Brod/@45.1570495,18.0150167,17z/data=!3m1!4b1!4m6!3m5!1s0x475dba00e664c827:0x6e4aa33f449b61ec!8m2!3d45.1570457!4d18.0175916!16s%2Fg%2F11pzxb3z9x?entry=ttu
+" className="w-full md:w-1/3" target="_blank" rel="noopener noreferrer">
+    <Button className="w-full">Kako do nas?</Button>
+  </a>
+</div>
 
-         
-        </div>
       </div>
 
       {/* Hero cards sections */}

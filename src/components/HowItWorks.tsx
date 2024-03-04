@@ -12,25 +12,25 @@ const features: FeatureProps[] = [
     icon: <MedalIcon />,
     title: "Procjena popravka",
     description:
-      "Putem Vasih danih informacija analiziramo koliko bi popravak mogao kostati.",
+      "Putem Vaših danih informacija analiziramo koliko bi popravak mogao koštati.",
   },
   {
     icon: <MapIcon />,
-    title: "",
+    title: "Gdje se nalazimo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Nikole Zrinskog 21, 35000, Slavonski Brod",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Kontakt",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "E-mail: signal@inet.hr   Tel: +38535 627 576",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Kvaliteta i tradicija",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Preko 15 godina iskustva u servisiranju mobilnih uređaja i računala.",
   },
 ];
 
@@ -48,7 +48,7 @@ export const HowItWorks = () => {
         
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-      Dodjite do nas na nasoj lokaciji ili nam se obratite e-mail-a
+      Dodjite do nas na našoj lokaciji ili nam se obratite putem mail-a
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
